@@ -16,6 +16,10 @@
         "dist/motokobootcamp2023_coreproject_frontend/"
       ],
       "type": "assets"
+    },
+    "webpage": {
+      "main": "src/motokobootcamp2023_coreproject_webpage/main.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
