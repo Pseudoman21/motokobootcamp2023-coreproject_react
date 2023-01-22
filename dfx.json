@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "motokobootcamp2023_coreproject_backend": {
+      "main": "src/motokobootcamp2023_coreproject_backend/main.mo",
+      "type": "motoko"
+    },
+    "motokobootcamp2023_coreproject_frontend": {
+      "dependencies": [
+        "motokobootcamp2023_coreproject_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/motokobootcamp2023_coreproject_frontend/src/index.html"
+      },
+      "source": [
+        "src/motokobootcamp2023_coreproject_frontend/assets",
+        "dist/motokobootcamp2023_coreproject_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
